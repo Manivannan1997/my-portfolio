@@ -1,0 +1,112 @@
+{
+    "personal": {
+        "name": "Manivannan S",
+        "role": "Senior Software Engineer",
+        "summary": "Experienced Full Stack Developer with 4+ years of demonstrated work experience in building scalable web and API applications across healthcare, e-commerce, and data migration domains. Proficient in Ruby on Rails, Python, React.js, Electron.js, Stimulus.js, AWS and Docker. Skilled in RESTful services, relational databases, and Agile development. I also mentor junior developers, conduct code reviews, and promote best practices to drive team growth and maintain high-quality, production-ready systems.",
+        "email": "vananmani47@gmail.com",
+        "phone": "+91 7904871045",
+        "location": "Chennai, Tamil Nadu, India",
+        "linkedin": "https://linkedin.com/in/manivannan",
+        "github": "https://github.com/manivannan",
+        "profile_image": "https://drive.google.com/thumbnail?id=1RTbTd6ndDXYNrr7qLkC5X5xDk-i6rUXQ&sz=w1000",
+        "resume_url": "https://drive.google.com/uc?export=download&id=1wVsN_qMu2glTLHADlqmDJk4napTFv67z"
+    },
+    "technical_expertise": [
+        {
+            "category": "Programming Languages",
+            "skills": ["Ruby on Rails", "React JS", "Python", "Electron JS", "Stimulus JS", "SQL"]
+        },
+        {
+            "category": "Libraries & Tools",
+            "skills": ["Git / GitHub", "Docker", "AWS (EC2, S3, Lambda, etc.)", "PostgreSQL / Redis / SQL", "Sidekiq", "Webpack / Vite", "Tailwind CSS / Bootstrap", "TanStack Query / PNPM"]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Spritle Software",
+            "role": "Senior Full Stack Developer",
+            "date": "Aug 2021 – Present",
+            "tasks": [
+                "Contributed to and led multiple full-stack projects across healthcare, logistics, and sports domains, collaborating with cross-functional agile teams.",
+                "Designed and delivered scalable, production-ready solutions using Ruby on Rails, React.js, Python/Django, TypeScript, and AWS Cloud Services.",
+                "Provided technical ownership, code reviews, and mentoring support while driving best practices across projects.",
+                "Acted as the primary bridge between business stakeholders and the engineering team for key client engagements.",
+                "Managed specialized technical delivery, performed task estimation, and ensured high-quality feature delivery under tight deadlines."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "REACH24™",
+            "description": "Enterprise SaaS for fleet maintenance coordination used by major logistics companies.",
+            "image": "https://images.unsplash.com/photo-1699444118005-56d854416bc6?q=80&w=1170&auto=format&fit=crop",
+            "tags": ["Ruby on Rails", "React JS", "React on Rails", "REST API", "Monolithic Architecture", "SQL", "Elasticsearch", "Sidekiq", "RSpec", "Data Migration"],
+            "contributions": [
+                "Refactored monolithic Ruby on Rails codebase, improving reliability and test coverage.",
+                "Modernized legacy frontend by migrating views to React.js with component-based architecture.",
+                "Led implementation of critical features like Adhoc and standalone invoice generation.",
+                "Executed zero-downtime data migration between database tables."
+            ]
+        },
+        {
+            "title": "Stanford SOAR",
+            "description": "Mobile-friendly surgical video platform with ML-driven insights and AWS architecture.",
+            "image": "https://plus.unsplash.com/premium_photo-1661628801528-b026adb155e7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=800&q=80",
+            "tags": ["React JS", "TypeScript", "Vite", "Tailwind CSS", "TanStack Query", "Python/Django", "AWS Lambda", "AWS API Gateway", "AWS S3", "AWS S3 Multipart Upload", "AWS CloudFront", "AWS SQS", "PNPM"],
+            "contributions": [
+                "Developed entire frontend using React.js, TypeScript, and TanStack Query.",
+                "Implemented AWS S3 Multipart Upload for 5GB+ surgical videos.",
+                "Built custom AWS Lambda functions for async video processing and clip generation.",
+                "Leveraged AWS API Gateway, CloudFront, and SQS for scalable architecture."
+            ]
+        },
+        {
+            "title": "Nestlé Health Science",
+            "description": "Enterprise platforms for healthcare including PureInsights and Patient Direct portals.",
+            "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1170&auto=format&fit=crop",
+            "tags": ["Ruby on Rails", "React JS", "Stimulus JS", "RSpec", "PostgreSQL", "SQL", "REST API", "Monolithic Architecture", "i18n", "Data Migration", "Version Upgradation"],
+            "contributions": [
+                "Built Staff Management Module for administration and role-based permissions.",
+                "Upgraded stack from Ruby 2.7 to 3.3 and Rails 6.7 to 7.2.",
+                "Designed custom ETL tool to migrate 18,000 records from Azure SQL to PostgreSQL.",
+                "Implemented multi-language support (CA, EN, UK, FR) and real-time cart interactions."
+            ]
+        },
+        {
+            "title": "Go Time Sports",
+            "description": "Real-time sports event tracking platform with web and desktop cross-platform apps.",
+            "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=800&q=80",
+            "tags": ["Ruby on Rails", "React JS", "Electron.js", "RSpec", "Sidekiq", "Redis", "JWT / 2FA", "OneSignal", "AWS S3", "AWS Lambda", "AWS CloudFront"],
+            "contributions": [
+                "Built cross-platform desktop app with Electron.js for offline result management.",
+                "Engineered notification systems using OneSignal, Sidekiq, and Redis.",
+                "Developed RESTful APIs with JWT role authentication and image uploads to S3.",
+                "Coordinated technical delivery and led architectural decisions for scalability."
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "title": "Performance & Contribution",
+            "date": "May 2022",
+            "detail": "Recognized for delivering high-impact features and consistent performance."
+        },
+        {
+            "title": "Spotlight Award",
+            "date": "March 2023",
+            "detail": "Awarded for overall performance excellence, leadership in project execution, and commitment to product quality."
+        }
+    ],
+    "engagement": [
+        {
+            "title": "Knowledge Sharing Speaker",
+            "date": "2022",
+            "detail": "Internal tech session on RSpec importance and best practices in test-driven development (TDD) for Ruby on Rails."
+        },
+        {
+            "title": "Tech Talk: Desktop Apps",
+            "date": "2024",
+            "detail": "Comparative study of Electron.js vs Tauri, evaluating performance, security, and efficiency for cross-platform development."
+        }
+    ]
+}
