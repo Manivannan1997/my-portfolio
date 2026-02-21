@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
             renderProjects(data.projects);
             renderGridSection(data.achievements, 'achievements-grid');
             renderGridSection(data.engagement, 'engagement-grid');
+            renderEducation(data.education);
+            renderContact(data.personal);
 
             // Initialize animations and toggles after content is rendered
             initAfterRender();
@@ -105,6 +107,46 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>${item.detail}</p>
             </div>
         `).join('');
+    }
+
+    function renderEducation(education) {
+        const container = document.getElementById('education-container');
+        container.innerHTML = education.map(edu => `
+            <div class="glass-card tilt-card reveal">
+                <div class="exp-header">
+                    <div>
+                        <h3>${edu.institution}</h3>
+                        <p class="role">${edu.degree}</p>
+                    </div>
+                    <span class="date">${edu.date}</span>
+                </div>
+                <p>${edu.location}</p>
+            </div>
+        `).join('');
+    }
+
+    function renderContact(personal) {
+        const container = document.getElementById('contact-container');
+        container.innerHTML = `
+            <div class="glass-card contact-info tilt-card reveal">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                <ul class="contact-links">
+                    <li><strong>Email:</strong> ${personal.email}</li>
+                    <li><strong>Phone:</strong> ${personal.phone}</li>
+                    <li><strong>Location:</strong> ${personal.location}</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="${personal.linkedin}" target="_blank" class="btn secondary">LinkedIn</a>
+                    <a href="${personal.github}" target="_blank" class="btn secondary">GitHub</a>
+                </div>
+            </div>
+            <div class="glass-card contact-cta tilt-card reveal">
+                <h3>Start a Conversation</h3>
+                <p>I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                <a href="mailto:${personal.email}" class="btn primary">Email Me Directly</a>
+            </div>
+        `;
     }
 
     function initAfterRender() {

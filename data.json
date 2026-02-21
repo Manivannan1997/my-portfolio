@@ -108,5 +108,13 @@
             "date": "2024",
             "detail": "Comparative study of Electron.js vs Tauri, evaluating performance, security, and efficiency for cross-platform development."
         }
+    ],
+    "education": [
+        {
+            "institution": "AVC College of Engineering",
+            "degree": "BE - Electronics and Communication Engineering",
+            "date": "2014 – 2018",
+            "location": "Mayiladuthurai, Tamil Nadu, India"
+        }
     ]
 }
