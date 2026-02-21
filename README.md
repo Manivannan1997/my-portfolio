@@ -32,7 +32,7 @@ A modern, premium portfolio showcasing my experience as a Senior Software Engine
 ## 📬 Contact
 
 - 📧 Email: vananmani47@gmail.com
-- 💼 LinkedIn: [https://linkedin.com/in/manivannan](https://www.linkedin.com/in/mani-vannan-a3980a1b5/)
+- 💼 LinkedIn: [https://linkedin.com/in/mani-vannan-a3980a1b5](https://www.linkedin.com/in/mani-vannan-a3980a1b5/)
 
 ---
 
